@@ -372,8 +372,8 @@ def generate_pdf(dataframe, sheet_name, unit_name, total_anggaran, include_signa
         'VOL': 15,
         'SAT': 15,
         'HARGA': 27,
-        'JUMLAH': 27,
-        'RO': 10,
+        'JUMLAH': 30,
+        'RO': 7,
         'SD': 10,
     }
 
@@ -606,3 +606,4 @@ contact_html = '''
 </div>
 '''
 st.sidebar.markdown(contact_html, unsafe_allow_html=True)
+
